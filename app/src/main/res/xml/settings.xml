@@ -1,0 +1,11 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- opens a subscreen of settings -->
+    <RingtonePreference
+        android:key="ringtone_warning"
+        android:ringtoneType="notification"
+        android:title="@string/warning" />
+    <RingtonePreference
+        android:key="ringtone_alarm"
+        android:ringtoneType="ringtone"
+        android:title="@string/alarm" />
+</PreferenceScreen>
